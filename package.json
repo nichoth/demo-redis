@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "redis": "^2.8.0",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.5.0",
+    "eslint-config-minlint": "^2.0.0"
+  }
+}
