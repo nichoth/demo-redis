@@ -9,6 +9,10 @@ Start a docker container with redis
     $ docker run --name redis -p 7379:6379 -d redis
     $ docker ps # should show the redis process
 
+Docker run explanation:
+
+    $ docker run --name <process name> -p[port] <exposedPort>:<internal port> -d[detach] <container name>
+
 Redis commander is a helpful gui app
 
     $ npm i -g redis-commander
